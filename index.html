@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Мусійчук Я. С. ІВ-91 ЛР5 Варіант 19</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<main class="main">
+    <nav class='navigation_bar'>
+        <ul>
+            <li id="task1" class="active-tab">
+                <div class='nav_btn' >Task1</div>
+            </li>
+            <li id="task2">
+                <div class='nav_btn' >Task2</div>
+            </li>
+
+        </ul>
+    </nav>
+    <div class="container">
+
+        <section id="task1-display" class="wrapper">
+            <div class="heading">
+                <h1 class="text text-large">Registration Form</h1>
+
+            </div>
+            <form name="signin" id="form" class="form" target="_blank" action="data.html" method="get"  novalidate>
+                <div class="input-area">
+                <div class="input-control">
+                    <label>Full Name:</label>
+                  <input type="text" name="full_name" id="full_name" class="input-field" placeholder="ТТТТТТ Т.Т.">
+                </div>
+                    <div class="error_msg" id="error_full_name"></div>
+                </div>
+                <div class="input-area">
+                <div class="input-control">
+                    <label>ID-card:</label>
+                    <input type="text" name="id_card" id="id_card" class="input-field" placeholder="ТТ №ЧЧЧЧЧЧ">
+
+                </div>
+                    <div class="error_msg" id="error_id_card"></div>
+                </div>
+                <div class="input-area">
+                <div class="input-control">
+                    <label>Faculty:</label>
+                    <input type="text" name="faculty" id="faculty" class="input-field" placeholder="ТТТТ">
+
+                </div>
+                    <div class="error_msg" id="error_faculty"></div>
+                </div>
+                <div class="input-area">
+                <div class="input-control">
+                    <label>Date Of Birth:</label>
+                    <input type="text" name="date_of_birth" id="date_of_birth" class="input-field" placeholder="ЧЧ.ЧЧ.ЧЧЧЧ">
+
+                </div>
+                    <div class="error_msg" id="error_date"></div>
+                </div>
+                <div class="input-area">
+                <div class="input-control">
+                    <label>Address:</label>
+                    <input type="text" name="address" id="address" class="input-field" placeholder="м. ЧЧЧЧЧЧ">
+
+                </div>
+                    <div class="error_msg" id="error_address"></div>
+                </div>
+                <div class="input-control">
+
+                    <input type="submit" id="submit_button" name="submit" class="input-submit" value="Submit" >
+                </div>
+            </form>
+
+
+
+        </section>
+        <section id="task2-display" class="wrapper">
+            <h1>Table</h1>
+            <input id="color-picker" type="color" value="#4bab77"/>
+            <table >
+                <tr>
+                    <td>1</td>
+                    <td>2</td>
+                    <td>3</td>
+                    <td>4</td>
+                    <td>5</td>
+                    <td>6</td>
+                </tr>
+
+                <tr>
+                    <td>7</td>
+                    <td>8</td>
+                    <td>9</td>
+                    <td>10</td>
+                    <td>11</td>
+                    <td>12</td>
+                </tr>
+                <tr>
+                    <td>13</td>
+                    <td>14</td>
+                    <td>15</td>
+                    <td>16</td>
+                    <td>17</td>
+                    <td>18</td>
+                </tr>
+                <tr>
+                    <td id="variant-cell">19</td>
+                    <td>20</td>
+                    <td>21</td>
+                    <td>22</td>
+                    <td>23</td>
+                    <td>24</td>
+                </tr>
+                <tr>
+                    <td>25</td>
+                    <td>26</td>
+                    <td>27</td>
+                    <td>28</td>
+                    <td>29</td>
+                    <td>30</td>
+                </tr>
+                <tr>
+                    <td id="change-cell">31</td>
+                    <td>32</td>
+                    <td>33</td>
+                    <td>34</td>
+                    <td>35</td>
+                    <td>36</td>
+                </tr>
+
+            </table>
+        </section>
+    </div>
+</main>
+</body>
+<script src="script.js"></script>
+</html>
